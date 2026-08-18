@@ -23,19 +23,15 @@ Allocating excessive RAM does not increase server speed. In Java, allocating too
 
 * **The GC Lag Spike Problem:** Giving a server 32 GB when it only needs 8 GB forces Java's GC to accumulate gigabytes of junk data before cleaning it up. When cleanup finally happens, it causes severe "Stop-The-World" lag spikes that freeze the server.
 * **Rule of Thumb:** Allocate the minimum RAM required for your player count, simulation distance, and mods, plus a 20–30% buffer for breathing room.
-* **Optimization Flags:** If your method of server hosting supports it, be sure to optimize your JVM starup flags, see [JVM & GC Flags Guide](jvm-flags-guide.md)
+* **Optimization Flags:** If your method of server hosting supports it, be sure to optimize your JVM startup flags, see [JVM & GC Flags Guide](jvm-flags-guide.md)
 ---
 
-## 3. Off-Heap Memory & System Overhead
-
-Your server process requires more total system RAM than just the `-Xmx` limit you set in your startup script.
-
-* **Off-Heap Usage:** Java uses extra system RAM outside the main allocation heap for internal operations (Metaspace, thread stacks, and native C++ code).
-* **Host System Buffer:** Always leave **1 to 2 GB of system RAM free** for the operating system and background processes. If a host machine has 8 GB total RAM, set your Minecraft server maximum (`-Xmx`) to **6 GB**, not 8 GB. Setting it to 100% will cause OS crashes or Out-Of-Memory (OOM) process kills.
+**Reminder:**
+- If you are self hosting, always leave **1 to 2 GB of system RAM free** for the operating system and background processes. If a host machine has 8 GB total RAM, set your Minecraft server maximum (`-Xmx`) to **6 GB**, not 8 GB. Setting it to 100% will cause crashes.
 
 ---
 
-## 4. Key Memory Consumers
+## 3. Key Memory Consumers
 
 Minecraft RAM usage is divided into four main categories:
 
