@@ -23,8 +23,7 @@ Allocating excessive RAM does not increase server speed. In Java, allocating too
 
 * **The GC Lag Spike Problem:** Giving a server 32 GB when it only needs 8 GB forces Java's GC to accumulate gigabytes of junk data before cleaning it up. When cleanup finally happens, it causes severe "Stop-The-World" lag spikes that freeze the server.
 * **Rule of Thumb:** Allocate the minimum RAM required for your player count, simulation distance, and mods, plus a 20–30% buffer for breathing room.
-* **Optimization Flags:** Always start your server using **Aikar’s Flags** (optimized JVM startup arguments) to force the G1 Garbage Collector to clean memory continuously in micro-chunks rather than all at once.
-
+* **Optimization Flags:** If your method of server hosting supports it, be sure to optimize your JVM starup flags, see 
 ---
 
 ## 3. Off-Heap Memory & System Overhead
