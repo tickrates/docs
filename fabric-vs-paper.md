@@ -58,24 +58,6 @@ For diagnostic stack traces on either platform, refer to the [Spark Profiler Ana
 
 ---
 
-## 5. Architectural Decision Matrix
-
-Select your software stack based on your primary server objective:
-
-```text
-Do you require Bukkit/Spigot plugins (LuckPerms, WorldGuard, EssentialsX)?
-├── YES ──> Do you need extreme gameplay customization & mob AI tuning?
-│            ├── YES ──> Purpur (See Paper & Purpur Config Matrix)
-│            └── NO  ──> Paper
-└── NO  ──> Is preserving 100% Vanilla redstone/technical mechanics required OR running content mods?
-             ├── YES ──> Fabric + Lithium / FerriteCore / Krypton / C2ME
-             └── NO  ──> Paper
-```
-
-For configuration flags on Paper and Purpur setups, refer to the [Paper & Purpur Configuration Reference](./paper-purpur-optimization.md).
-
----
-
 ## 6. Recommended Fabric Performance Stack
 
 If choosing Fabric, install these core server-side optimization mods:
