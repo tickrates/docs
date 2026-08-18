@@ -7,7 +7,7 @@ Tickrates is an open-source technical index and community hub for Minecraft serv
 ## Guides
 
 * [Fixing Server TPS & High MSPT](./fix-server-tps.md)
-* [Reading Spark Profiler Reports](./read-spark-report.md) 
+* [Reading Spark Profiler Reports](./spark-profiler-guide.md) 
 * [Analyzing Server Crash Logs](./read-crash-log.md)
 * [Fabric vs. Paper Software Comparison](./fabric-vs-paper.md)
 * [Memory Allocation & JVM Tuning](./server-ram-guide.md)
