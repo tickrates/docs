@@ -1,6 +1,4 @@
-<meta name="google-site-verification" content="QWMXe01BV5xmfIla4YkpYVV_-TWpd4wTGzExofgH8vs" />
-
-
+[https://tickrates.gitbook.io/tickrates](https://tickrates.gitbook.io/tickrates)
 ## Tickrates Server Optimization Guides
 
 Tickrates is an in-progress technical index with helpful guides for Minecraft server owners, administrators, and developers. 
@@ -16,8 +14,6 @@ Tickrates is an in-progress technical index with helpful guides for Minecraft se
 * [How Much RAM Does my Server Need?](./server-ram-guide.md)
 * [JVM & GC Flags](jvm-flags-guide.md)
 
-
-[View on GitBook](https://tickrates.gitbook.io/tickrates)
 
 ---
 
