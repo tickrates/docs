@@ -60,36 +60,10 @@ Active Chunks per Player = (2 × SimDistance + 1)²
 ### B. Mod Classification Impact
 
 - **Optimization Mods (Reduces Memory Usage):**
-  - **FerriteCore:** Reduces RAM usage by deduplicating models and optimizing data structures.
-  - **ModernFix:** Reduces launch time and fixes memory leaks in Forge/NeoForge registries.
-  - **Lithium:** Optimizes data structure alignment and entity processing.
+  Optimization Mods should aim to decrease memory usage, and therefore do not create an increase in required RAM
 - **World Generation Mods (High Memory During Exploration):**
-  - Mods like *Terralith*, *Tectonic*, or *Alex's Caves* increase chunk generation data size. If players explore ungenerated terrain, memory allocations spike dramatically. Pre-generation using Chunky is mandatory.
-- **Tech / Automation Mods (High Continuous Memory Usage):**
-  - Pipe networks, item transport, and automated crafting grids maintain large, volatile object reference trees in memory.
+  - Mods like *Terralith*, *Tectonic*, or *Alex's Caves* increase chunk generation data size, massively increasing RAM usage especially when players are generating new terrain
+- **Tech/Content Mods (High Continuous Memory Usage):**
+  - Mods like **Create Mod** that add machinery, item transportation, etc, create constant increased RAM usage
 
----
 
-## 5. Off-Heap Overhead & Host System Requirements
-
-Setting `-Xms8G -Xmx8G` does **not** cap the Java process at 8GB of system RAM. The total system RAM usage equals:
-
-Total System RAM = Heap Allocation (-Xmx) + Off-Heap Memory + OS Overhead
-
-### Off-Heap Components
-1. **Metaspace:** Stores loaded class definitions (`-XX:MaxMetaspaceSize=512M` or higher for modded).
-2. **Direct Byte Buffers:** High-throughput network packet management via Netty.
-3. **Thread Stacks & JVM Code Cache:** Native memory allocated for thread handling and JIT compilation.
-
-> **Hosting Provisioning Rule:** Reserve at least **2GB – 3GB of unallocated physical RAM** on the host machine for OS kernel tasks and JVM off-heap allocations. On a machine with 16GB total physical RAM, set `-Xms`/`-Xmx` to a maximum of **12GB – 13GB** to prevent Linux Out-Of-Memory (OOM) killer terminations.
-
----
-
-## 6. Garbage Collector Selection by Memory Tier
-
-Selection of the JVM Garbage Collector must adapt to the target heap size and mod weight.
-
-### Tier 1: Small to Medium Heaps (4GB – 10GB) -> **G1GC**
-Optimized for standard Paper servers or lightweight Fabric/Forge modpacks.
-```bash
-java -Xms6G -Xmx6G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -jar server.jar nogui
