@@ -39,9 +39,9 @@ Memory requirements depend on server software, render distance, player concurren
 | **Paper (Small)** | 10 – 30 | 6 / 10 | Plugins only | **6 – 8 GB** |
 | **Paper (Large)** | 50 – 100 | 4 / 8 | Plugins only | **10 – 12 GB** |
 | **Light Modpack** | 1 – 10 | 6 / 8 | 30–80 (Vanilla+) | **5 – 6 GB** |
-| **Medium Modpack** | 5 – 15 | 6 / 8 | 100–200 (Tech/Magic) | **7 – 9 GB** |
-| **Heavy Modpack** | 1 – 10 | 5 / 8 | 250–450+ (Expert/Kitchen Sink) | **10 – 14 GB** |
-| **Proxy / Hub (Velocity)** | 500+ | N/A | None | **1 – 2 GB** |
+| **Medium Modpack** | 5 – 15 | 6 / 8 | 100–200 | **7 – 9 GB** |
+| **Heavy Modpack** | 1 – 10 | 5 / 8 | 250–450+ | **10 – 14 GB** |
+
 
 
 ---
