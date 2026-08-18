@@ -82,6 +82,8 @@ For a complete key-by-key breakdown, see [Paper & Purpur Configuration Matrix](.
 
 Generating chunks dynamically during player exploration consumes significant main-thread CPU time and disk I/O.
 
+To prevent this, you can pre-generate your world using Chunky to completely remove the stress of generating new chunks as players explore the map.
+
 1. [Install **Chunky**](https://modrinth.com/plugin/chunky/versions)
 2. Set world border and pre-generate prior to public launch:
    ```bash
