@@ -13,6 +13,9 @@ Tickrates is an in-progress technical index with helpful guides for Minecraft se
 * [How Much RAM Does my Server Need?](./server-ram-guide.md)
 * [JVM & GC Flags](jvm-flags-guide.md)
 
+
+[View on GitBook](https://tickrates.gitbook.io/tickrates)
+
 ---
 
 ## Contributing & Community
