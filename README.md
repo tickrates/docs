@@ -17,5 +17,5 @@ Tickrates is an in-progress technical index with helpful guides for Minecraft se
 
 ## Contributing & Community
 
-These docs are fully open-source. If you find outdated or inacurate information, contact through discord: tickrates_
+These docs are fully open-source. If you find outdated or inacurate information, join the [Discord](https://discord.gg/cZhsx74dvJ)
 
