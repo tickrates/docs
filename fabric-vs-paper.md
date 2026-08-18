@@ -3,7 +3,7 @@
 ## 1. Key Differences
 
 ### Paper & Purpur (Engine Patchers)
-Paper and Purpur fork Spigot/CraftBukkit. They rewrite, replace, or skip Vanilla tick logic, chunk loading, and entity behaviors directly at the bytecode level.
+Paper and Purpur fork Spigot/CraftBukkit. They rewrite, replace, or skip Vanilla tick logic, chunk loading, and entity behaviors directly at the server code level.
 - **Goal:** Maximizing player capacity and preventing server crashes at all costs.
 - **Ecosystem:** Bukkit / Spigot / Paper API (`.jar` plugins).
 - **Modification Strategy:** Hardcodes performance shortcuts into the server engine, often changing Vanilla gameplay behavior.
