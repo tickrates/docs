@@ -33,13 +33,15 @@ Custom blocks, items, biome IDs, entities, and recipes loaded by Fabric/NeoForge
 
 Memory requirements depend on server software, render distance, player concurrency, and total mod weight.
 
-| Server Type | Concurrency | Sim / View Distance | Mod Count / Profile | Recommended Heap |
-| **Vanilla / Fabric** | 1 – 5 players | 10 / 12 | 0 – 10 (Optimization only) | **2GB – 4GB** | 
-| **Paper (Small SMP)** | 10 – 30 players | 6 / 10 | 0 (Plugins only) | **6GB – 8GB** | 
-| **Paper (Large SMP)** | 50 – 100 players | 4 / 8 | 0 (Plugins only) | **10GB – 12GB** |
-| **Light Modpack (Fabric/Forge)** | 1 – 10 players | 6 / 8 | 30 – 80 (Vanilla+ / Tech) | **5GB – 6GB** | 
-| **Medium Modpack (Fabric/Forge)** | 5 – 15 players | 6 / 8 | 100 – 200 (Create / Magic) | **7GB – 9GB** | 
-| **Heavy Expert Pack (Fabric/Forge)** | 1 – 10 players | 5 / 8 | 250 – 450+ (Kitchen Sink) | **10GB – 14GB** | 
+| Server Type | Players | Sim / View | Mod Profile | Recommended RAM |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vanilla / Fabric** | 1 – 5 | 10 / 12 | 0–10 (Optimization) | **2 – 4 GB** |
+| **Paper (Small)** | 10 – 30 | 6 / 10 | Plugins only | **6 – 8 GB** |
+| **Paper (Large)** | 50 – 100 | 4 / 8 | Plugins only | **10 – 12 GB** |
+| **Light Modpack** | 1 – 10 | 6 / 8 | 30–80 (Vanilla+) | **5 – 6 GB** |
+| **Medium Modpack** | 5 – 15 | 6 / 8 | 100–200 (Tech/Magic) | **7 – 9 GB** |
+| **Heavy Modpack** | 1 – 10 | 5 / 8 | 250–450+ (Expert/Kitchen Sink) | **10 – 14 GB** |
+| **Proxy / Hub (Velocity)** | 500+ | N/A | None | **1 – 2 GB** |
 
 
 ---
