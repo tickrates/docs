@@ -33,14 +33,14 @@ Custom blocks, items, biome IDs, entities, and recipes loaded by Fabric/NeoForge
 
 Memory requirements depend on server software, render distance, player concurrency, and total mod weight.
 
-| Server Type | Concurrency | Sim / View Distance | Mod Count / Profile | Recommended Heap | Notes |
+| Server Type | Concurrency | Sim / View Distance | Mod Count / Profile | Recommended Heap |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Vanilla / Fabric** | 1 – 5 players | 10 / 12 | 0 – 10 (Optimization only) | **2GB – 4GB** | Requires Lithium + FerriteCore to minimize footprint. |
-| **Paper (Small SMP)** | 10 – 30 players | 6 / 10 | 0 (Plugins only) | **6GB – 8GB** | Ideal target for G1GC tuning. |
-| **Paper (Large SMP)** | 50 – 100 players | 4 / 8 | 0 (Plugins only) | **10GB – 12GB** | Requires Generational ZGC to prevent GC pause spikes. |
-| **Light Modpack (Fabric/Forge)** | 1 – 10 players | 6 / 8 | 30 – 80 (Vanilla+ / Tech) | **5GB – 6GB** | Lightweight tech or worldgen tweaks. |
-| **Medium Modpack (Fabric/Forge)** | 5 – 15 players | 6 / 8 | 100 – 200 (Create / Magic) | **7GB – 9GB** | Substantial tile entity processing overhead. |
-| **Heavy Expert Pack (Fabric/Forge)** | 1 – 10 players | 5 / 8 | 250 – 450+ (Kitchen Sink) | **10GB – 14GB** | High registry and force-loaded chunk footprint. |
+| **Vanilla / Fabric** | 1 – 5 players | 10 / 12 | 0 – 10 (Optimization only) | **2GB – 4GB** | 
+| **Paper (Small SMP)** | 10 – 30 players | 6 / 10 | 0 (Plugins only) | **6GB – 8GB** | 
+| **Paper (Large SMP)** | 50 – 100 players | 4 / 8 | 0 (Plugins only) | **10GB – 12GB** |
+| **Light Modpack (Fabric/Forge)** | 1 – 10 players | 6 / 8 | 30 – 80 (Vanilla+ / Tech) | **5GB – 6GB** | 
+| **Medium Modpack (Fabric/Forge)** | 5 – 15 players | 6 / 8 | 100 – 200 (Create / Magic) | **7GB – 9GB** | 
+| **Heavy Expert Pack (Fabric/Forge)** | 1 – 10 players | 5 / 8 | 250 – 450+ (Kitchen Sink) | **10GB – 14GB** | 
 
 
 ---
