@@ -34,7 +34,6 @@ Custom blocks, items, biome IDs, entities, and recipes loaded by Fabric/NeoForge
 Memory requirements depend on server software, render distance, player concurrency, and total mod weight.
 
 | Server Type | Concurrency | Sim / View Distance | Mod Count / Profile | Recommended Heap |
-| :--- | :--- | :--- | :--- | :--- | :--- |
 | **Vanilla / Fabric** | 1 – 5 players | 10 / 12 | 0 – 10 (Optimization only) | **2GB – 4GB** | 
 | **Paper (Small SMP)** | 10 – 30 players | 6 / 10 | 0 (Plugins only) | **6GB – 8GB** | 
 | **Paper (Large SMP)** | 50 – 100 players | 4 / 8 | 0 (Plugins only) | **10GB – 12GB** |
