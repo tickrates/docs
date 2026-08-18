@@ -1,8 +1,6 @@
 # Fabric vs. Paper & Purpur: Server Software Comparison
 
-## 1. Architectural Core & Design Philosophy
-
-The fundamental difference between Paper/Purpur and Fabric lies in how they handle Vanilla game code.
+## 1. Key Differences
 
 ### Paper & Purpur (Engine Patchers)
 Paper and Purpur fork Spigot/CraftBukkit. They rewrite, replace, or skip Vanilla tick logic, chunk loading, and entity behaviors directly at the bytecode level.
