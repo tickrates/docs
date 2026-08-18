@@ -15,14 +15,15 @@ Do not tune server configurations blindly based on symptoms. Always profile firs
 ## 2. Diagnostic Protocol
 
 1. **Run Spark Profiler:**
+   [Download Spark](https://spark.lucko.me/)
    ```bash
    /spark profiler --start
    # Allow to run for 10-15 minutes under normal player load
    /spark profiler --stop
    ```
-2. **Analyze Output:** Look for dominant tick consumers in the call stack.
+3. **Analyze Output:** Look for dominant tick consumers in the call stack.
    - For detailed stack interpretation, see [Spark Profiler Analysis Guide](./spark-profiler-guide.md).
-3. **Monitor Memory & Threading:**
+4. **Monitor Memory & Threading:**
    ```bash
    /spark healthcheck
    /spark heap
