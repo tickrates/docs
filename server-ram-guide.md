@@ -13,7 +13,7 @@ Memory requirements depend on server software, render distance, player concurren
 | **Medium Modpack** | 5 – 15 | 6 / 8 | 100–200 | **7 – 9 GB** |
 | **Heavy Modpack** | 1 – 10 | 5 / 8 | 250–450+ | **10 – 14 GB** |
 
-*Note: For modern Minecraft (1.18+), increased world height and generation depth make 4 GB the practical baseline for comfortable play.*
+*Note: For modern Minecraft (1.18+), increased world height and generation depth make 4 GB the practical minimum.*
 
 ---
 
