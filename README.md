@@ -6,11 +6,11 @@ Tickrates is an open-source technical index and community hub for Minecraft serv
 
 ## Guides
 
-* [Fixing Server TPS & High MSPT](./fix-server-tps.md): Systematic checklist for isolating bottlenecks and optimizing main-thread performance.
-* [Reading Spark Profiler Reports](./read-spark-report.md): A guide to interpreting sampling data, method calls, and execution trees.
-* [Analyzing Server Crash Logs](./read-crash-log.md): How to isolate thread deadlocks, NBT corruption, and heap exhaustion.
-* [Fabric vs. Paper Software Comparison](./fabric-vs-paper.md): Technical breakdown of internal game loop modifications versus vanilla logic retention.
-* [Memory Allocation & JVM Tuning](./server-ram-guide.md): Heap size recommendations, Garbage Collection behavior, and avoiding stop-the-world pauses.
+* [Fixing Server TPS & High MSPT](./fix-server-tps.md): 
+* [Reading Spark Profiler Reports](./read-spark-report.md): 
+* [Analyzing Server Crash Logs](./read-crash-log.md):
+* [Fabric vs. Paper Software Comparison](./fabric-vs-paper.md): 
+* [Memory Allocation & JVM Tuning](./server-ram-guide.md):
 
 ---
 
