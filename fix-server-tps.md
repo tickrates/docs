@@ -73,8 +73,6 @@ In `paper-world-defaults.yml` or `spigot.yml`:
 Hoppers checking for item entities above them every tick cause high CPU overhead.
 - In `paper-global.yml`:
   - `hopper.disable-move-event: true`
-- In `purpur.yml` (if using Purpur):
-  - Set custom hopper transfer cooldowns or alternate redstone algorithms (e.g., Alternate Current).
 
 For a complete key-by-key breakdown, see [Paper & Purpur Configuration Matrix](./paper-purpur-optimization.md).
 
@@ -84,7 +82,7 @@ For a complete key-by-key breakdown, see [Paper & Purpur Configuration Matrix](.
 
 Generating chunks dynamically during player exploration consumes significant main-thread CPU time and disk I/O.
 
-1. Install **Chunky**.
+1. [Install **Chunky**](https://modrinth.com/plugin/chunky/versions)
 2. Set world border and pre-generate prior to public launch:
    ```bash
    /worldborder set 10000
