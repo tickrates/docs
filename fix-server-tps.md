@@ -99,4 +99,3 @@ To prevent this, you can pre-generate your world using Chunky to completely remo
 - [Spark Profiler Deep-Dive & Flamegraph Interpretation](./spark-profiler-guide.md)
 - [Paper & Purpur Advanced Config Reference](./paper-purpur-optimization.md)
 - [JVM Flag Tuning for High-Memory Environments](./jvm-flags-guide.md)
-- [Entity & Mob Farm Control Strategies](./entity-management.md)
