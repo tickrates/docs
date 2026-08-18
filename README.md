@@ -1,6 +1,6 @@
 # Tickrates Server Optimization Guides
 
-Tickrates is an open-source technical index for Minecraft server owners, administrators, and developers. 
+Tickrates is an in-progress technical index with helpful guides for Minecraft server owners, administrators, and developers. 
 
 ---
 
