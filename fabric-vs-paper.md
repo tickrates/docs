@@ -9,7 +9,7 @@ Paper and Purpur fork Spigot/CraftBukkit. They rewrite, replace, or skip Vanilla
 - **Modification Strategy:** Hardcodes performance shortcuts into the server engine, often changing Vanilla gameplay behavior.
 
 ### Fabric (Lightweight Mod Loader)
-Fabric is not a server software by itself; it is a lightweight mod loader. Out of the box, Fabric runs unpatched Vanilla server code. Performance gains are achieved by adding standalone server-side optimization mods.
+Fabric is not a server software by itself, it is a lightweight mod loader. Out of the box, Fabric runs unpatched Vanilla server code. Performance gains are achieved by adding standalone server-side optimization mods.
 - **Goal:** Moddability and exact Vanilla mechanic preservation.
 - **Ecosystem:** Fabric Mod API (`.jar` mods).
 - **Modification Strategy:** Retains 100% Vanilla game logic while replacing inefficient internal algorithms via optimization mods.
@@ -40,8 +40,6 @@ Fabric does not alter game logic. When paired with **Lithium** (a server-side op
 - TNT duplication, bedrock breaking, and RNG manipulation function identically to Vanilla singleplayer.
 - Fully compatible with **Carpet Mod** for deep server profiling, tick manipulation, and technical automation.
 
-For diagnostic stack traces on either platform, refer to the [Spark Profiler Analysis Guide](./spark-profiler-guide.md).
-
 ---
 
 ## 4. Ecosystem & Extensibility
@@ -50,9 +48,7 @@ For diagnostic stack traces on either platform, refer to the [Spark Profiler Ana
 - **Paper / Purpur:** Uses Bukkit-based plugins (e.g., EssentialsX, LuckPerms, WorldGuard). Plugins operate purely server-side—players join with an unmodded Vanilla client.
 - **Fabric:** Uses Fabric mods. 
   - **Server-Only Mods:** Functions like plugins (e.g., Lithium, FerriteCore, Ledger, miniMOTD). Vanilla clients can join without installing anything.
-  - **Content Mods:** Adds custom items, blocks, or mobs (e.g., Create, Cobblemon). Requires clients to install matching mods.
-
-> **Warning on Hybrid Software:** Software like Cardboard or Arclight attempts to run Bukkit plugins on Fabric. These bridges introduce severe thread-safety bugs, broken event triggers, and unstable tick loops. Do not use hybrid wrappers on production environments.
+  - **Content Mods:** Adds custom items, blocks, or mobs (e.g., Create, Cobblemon). Requires players to install matching mods client-side.
 
 ---
 
