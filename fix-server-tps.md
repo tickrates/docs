@@ -16,6 +16,7 @@ Do not tune server configurations blindly based on symptoms. Always profile firs
 
 1. **Run Spark Profiler:**
    [Download Spark](https://spark.lucko.me/)
+   In your server (In-game or in console) Run:
    ```bash
    /spark profiler --start
    # Allow to run for 10-15 minutes under normal player load
