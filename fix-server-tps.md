@@ -35,11 +35,10 @@ Do not tune server configurations blindly based on symptoms. Always profile firs
 
 ### Server Software
 - **Avoid:** CraftBukkit, Spigot, Vanilla.
-- **Recommended:** Paper or Purpur (Purpur exposes fine-grained tick frequency toggles).
-- **Multithreading Workloads:** For massive player bases on 1.20+, evaluate Folia (requires multi-threaded compatible plugins).
+- **Recommended:** Paper, Purpur, Fabric
 
 ### Java Runtime & GC Configuration
-Use Java 21 LTS or newer. Do not allocate excessive RAM; over-allocation increases GC collection times.
+Use Java 21 LTS or newer. Do not allocate excessive RAM; over-allocation increases GC collection times. see [How Much RAM do I need on my Server?](./server-ram-guide.md)
 
 **Recommended JVM Arguments (Generational ZGC for Java 21+):**
 ```bash
@@ -50,6 +49,7 @@ For legacy G1GC tuning or detailed flag explanations, refer to [JVM & GC Tuning 
 ---
 
 ## 4. Key Configuration Tweaks
+Some example settings for server running Paper
 
 ### A. View & Simulation Distance
 World loading and entity processing scale exponentially with simulation distance.
