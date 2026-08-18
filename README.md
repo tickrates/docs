@@ -1,6 +1,6 @@
 # Tickrates Technical Documentation
 
-Tickrates is an open-source technical index and community hub for Minecraft server administrators, engineers, and developers. Our goal is to replace outdated forum posts, superstitious config advice, and unoptimized server defaults with precise, hardware-level diagnostic guides.
+Tickrates is an open-source technical index and community hub for Minecraft server owners, e administrators, and developers. 
 
 ---
 
@@ -16,8 +16,9 @@ Tickrates is an open-source technical index and community hub for Minecraft serv
 
 ## Contributing & Community
 
-These docs are fully open-source. If you find outdated flags, inaccurate method descriptions, or better profiling techniques, submit a pull request on GitHub.
+These docs are fully open-source. If you find outdated or inacurate information, create a pull request or contact through discord: tickrates_
 
-To discuss server architecture, share configuration files, or get profiling input from other operators, join our Discord community.
+To become a part of the community or to seek help in all things server relatedm
+join our Discord community.
 
 * [Join the Tickrates Discord](https://discord.gg/YOUR_INVITE_LINK)
