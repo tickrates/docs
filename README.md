@@ -1,4 +1,4 @@
-# Tickrates Technical Documentation
+# Tickrates Server Optimization Guides
 
 Tickrates is an open-source technical index and community hub for Minecraft server owners, administrators, and developers. 
 
