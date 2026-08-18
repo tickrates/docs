@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [TPS & MSPT Optimization](tps-optimization-guide.md)
+* [TPS & MSPT Optimization](fix-server-tps.md)
 * [Spark Profiler Guide](spark-profiler-guide.md)
 
 ## Advanced Configuration
