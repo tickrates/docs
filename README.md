@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="QWMXe01BV5xmfIla4YkpYVV_-TWpd4wTGzExofgH8vs" />
 # Tickrates Server Optimization Guides
 
 Tickrates is an in-progress technical index with helpful guides for Minecraft server owners, administrators, and developers. 
