@@ -1,4 +1,4 @@
-# Minecraft Server Memory (RAM) Allocation & Modded Sizing Guide
+# Minecraft Server Memory (RAM) Allocation Guide
 
 ## 1. Fundamentals: The Over-Allocation Myth
 
